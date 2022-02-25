@@ -1,0 +1,9 @@
+{
+    "ApiUrl": "http://srbs.selrom.in/api/",
+    "PaymentMod" :[
+        { "name": "Cash","code":"Cash", "value": "Cash", "label": "Cash" },
+        { "name": "Card", "code": "Card","value": "Card", "label": "Card" },
+        { "name": "Credit", "code": "Credit","value": "Credit", "label": "Credit" },
+        { "name": "Others", "code": "Others","value": "Others", "label": "Others" }
+    ]
+}

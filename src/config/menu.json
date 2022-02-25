@@ -1,0 +1,1030 @@
+[
+    {
+        "menu": "Sales",
+        "icon": "home.jpg",
+        "login": ["EmployeeLogin"],
+        "user": ["Administrator","User"],
+        "submenu":[
+            {
+                "submenu": "Point of Sales (Billing)",
+                "icon": "home.jpg",
+                "user": ["Administrator","User"],
+                "url" : "/sales-bill",
+                "divider": false
+            },
+            {
+                "submenu": "Daily Sales Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/sales-daily-report",
+                "divider": false
+            },
+            {
+                "submenu": "Sales Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/sales-report",
+                "divider": true
+            },
+            {
+                "submenu": "Customer Wise Sales Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/sales-customer-report",
+                "divider": false
+            },
+            {
+                "submenu": "Cashier Wise Sales Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/sales-cashier-report",
+                "divider": false
+            },
+            {
+                "submenu": "Pay Mode Wise Sales Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/sales-pay-mode-report",
+                "divider": false
+            },
+            {
+                "submenu": "Reference Wise Sales Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/sales-reference-report",
+                "divider": false
+            },
+            {
+                "submenu": "Remark Wise Sales Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/sales-remark-report",
+                "divider": false
+            }
+            ,
+            {
+                "submenu": "Day Wise Sales Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/sales-day-report",
+                "divider": true
+            },
+            {
+                "submenu": "Sales Summary",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/sales-summary-report",
+                "divider": false
+            },
+            {
+                "submenu": "Item Wise Sales Summary",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/sales-item-report",
+                "divider": false
+            },
+            {
+                "submenu": "Catergory Wise Sales Summary",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/sales-category-report",
+                "divider": false
+            },
+            {
+                "submenu": "Item Type Wise Sales Summary",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/sales-item-type-report",
+                "divider": false
+            }
+        ]
+    },
+    {
+        "menu": "Purchase",
+        "icon": "home.jpg",
+        "login": ["EmployeeLogin"],
+        "user": ["Administrator","User"],
+        "submenu":[
+            {
+                "submenu": "Purchase Register",
+                "icon": "home.jpg",
+                "user": ["Administrator","User"],
+                "url" : "/purchase-register",
+                "divider": false
+            },
+            {
+                "submenu": "Purchase Rerturn Register",
+                "icon": "home.jpg",
+                "user": ["Administrator","User"],
+                "url" : "#",
+                "divider": true
+            },
+            {
+                "submenu": "Purchase Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/purchase-report",
+                "divider": false
+            },
+            {
+                "submenu": "Supplier Wise Purchase Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/purchase-supplier-report",
+                "divider": true
+            },
+            {
+                "submenu": "Purchase Summary",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/purchase-summary",
+                "divider": false
+            },
+            {
+                "submenu": "Item Wise Purchase Summary ",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/purchase-summary-item",
+                "divider": false
+            },
+            {
+                "submenu": "Category Wise Purchase Summary ",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/purchase-summary-category",
+                "divider": false
+            },
+            {
+                "submenu": "Supplier Wise Purchase Summary ",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/purchase-summary-supplier",
+                "divider": false
+            }
+        ]
+    },
+    {
+        "menu": "Estimate",
+        "icon": "home.jpg",
+        "login": ["EmployeeLogin"],
+        "user": ["Administrator","User"],
+        "submenu":[
+                {
+                    "submenu": "Estimate Master",
+                    "icon": "home.jpg",
+                    "user": ["Administrator","User"],
+                    "url" : "/estimate-bill",
+                    "divider": false
+                },
+                {
+                    "submenu": "Daily Estimate Report",
+                    "icon": "home.jpg",
+                    "user": ["Admin"],
+                    "url" : "/estimate-daily-report",
+                    "divider": false
+                },
+                {
+                    "submenu": "Estimate Report",
+                    "icon": "home.jpg",
+                    "user": ["Admin","Administrator","User"],
+                    "url" : "/estimate-report",
+                    "divider": true
+                },
+                {
+                    "submenu": "Customer Wise Estimate Report",
+                    "icon": "home.jpg",
+                    "user": ["Admin","Administrator","User"],
+                    "url" : "/estimate-customer-report",
+                    "divider": false
+                },
+                {
+                    "submenu": "Cashier Wise Estimate Report",
+                    "icon": "home.jpg",
+                    "user": ["Admin","Administrator","User"],
+                    "url" : "/estimate-cashier-report",
+                    "divider": false
+                },
+                {
+                    "submenu": "Pay Mode Wise Estimate Report",
+                    "icon": "home.jpg",
+                    "user": ["Admin","Administrator","User"],
+                    "url" : "/estimate-pay-mode-report",
+                    "divider": false
+                },
+                {
+                    "submenu": "Reference Wise Estimate Report",
+                    "icon": "home.jpg",
+                    "user": ["Admin","Administrator","User"],
+                    "url" : "/estimate-reference-report",
+                    "divider": false
+                },
+                {
+                    "submenu": "Remark Wise Estimate Report",
+                    "icon": "home.jpg",
+                    "user": ["Admin","Administrator","User"],
+                    "url" : "/estimate-remark-report",
+                    "divider": false
+                }
+                ,
+                {
+                    "submenu": "Day Wise Estimate Report",
+                    "icon": "home.jpg",
+                    "user": ["Admin","Administrator","User"],
+                    "url" : "/estimate-day-report",
+                    "divider": true
+                },
+                {
+                    "submenu": "Estimate Summary",
+                    "icon": "home.jpg",
+                    "user": ["Admin","Administrator","User"],
+                    "url" : "/estimate-summary-report",
+                    "divider": false
+                },
+                {
+                    "submenu": "Item Wise Estimate Summary",
+                    "icon": "home.jpg",
+                    "user": ["Admin","Administrator","User"],
+                    "url" : "/estimate-item-report",
+                    "divider": false
+                },
+                {
+                    "submenu": "Catergory Wise Estimate Summary",
+                    "icon": "home.jpg",
+                    "user": ["Admin","Administrator","User"],
+                    "url" : "/estimate-category-report",
+                    "divider": false
+                },
+                {
+                    "submenu": "Item Type Wise Estimate Summary",
+                    "icon": "home.jpg",
+                    "user": ["Admin","Administrator","User"],
+                    "url" : "/estimate-item-type-report",
+                    "divider": false
+                }
+            ]
+    },
+    {
+        "menu": "Item",
+        "icon": "home.jpg",
+        "login": ["EmployeeLogin"],
+        "user": ["Administrator","User"],
+        "submenu":[
+            {
+                "submenu": "Item Master",
+                "icon": "home.jpg",
+                "user": ["Administrator","User"],
+                "url" : "/item-master",
+                "divider": true
+            },
+            {
+                "submenu": "Purity Master",
+                "icon": "home.jpg",
+                "user": ["Administrator","User"],
+                "url" : "/item-purity-master",
+                "divider": false
+            },
+            {
+                "submenu": "Purity List",
+                "icon": "home.jpg",
+                "user": ["Administrator","User"],
+                "url" : "/item-purity-master-list",
+                "divider": true
+            },
+            {
+                "submenu": "Category Wise Items List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/item-category-list",
+                "divider": false
+            },
+            {
+                "submenu": "Item Type Wise Items List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/item-item-type-list",
+                "divider": false
+            },
+            {
+                "submenu": "Purity Wise Items List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/item-purity-list",
+                "divider": false
+            }
+            ,
+            {
+                "submenu": "Price Type Wise Items List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/item-price-type-list",
+                "divider": false
+            } ,
+            {
+                "submenu": "Category Wise Items Summary",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/category-item-summary",
+                "divider": false
+            } ,
+            {
+                "submenu": "HSN Wise Items Summary",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/hsn-item-summary",
+                "divider": false
+            }       
+        ]
+    },
+    {
+        "menu": "Stock",
+        "icon": "home.jpg",
+        "login": ["EmployeeLogin"],
+        "user": ["Administrator","User"],
+        "submenu":[
+            {
+                "submenu": "Stock Master",
+                "icon": "home.jpg",
+                "user": ["Administrator","User"],
+                "url" : "/stock-master",
+                "divider": false
+            },
+            {
+                "submenu": "Stock Summary",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/stock-summary",
+                "divider": true
+            },
+            {
+                "submenu": "Type Wise Stock Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/stock-item-type-report",
+                "divider": false
+            },
+            {
+                "submenu": "Purity Wise Stock Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/stock-purity-report",
+                "divider": false
+            },
+            {
+                "submenu": "Price Type Wise Stock Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/stock-price-type-report",
+                "divider": true
+            },
+            {
+                "submenu": "Stock List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/stock-list",
+                "divider": false
+            },
+            {
+                "submenu": "Stock Entry List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/stock-entry-list",
+                "divider": false
+            },
+            {
+                "submenu": "Old Stock List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/stock-old-list",
+                "divider": false
+            }
+        ]
+    },
+    {
+        "menu": "Accounts",
+        "icon": "home.jpg",
+        "login": ["EmployeeLogin"],
+        "user": ["Administrator","User"],
+        "submenu":[
+            {
+                "submenu": "Cash Book Register",
+                "icon": "home.jpg",
+                "user": ["Administrator","User"],
+                "url" : "/cash-book-register",
+                "divider": false
+            },
+            {
+                "submenu": "Bank Book Register",
+                "icon": "home.jpg",
+                "user": ["Administrator","User"],
+                "url" : "/bank-book-register",
+                "divider": false
+            },
+            {
+                "submenu": "Accounts Summary",
+                "icon": "home.jpg",
+                "user": ["Administrator","User"],
+                "url" : "/uderdev",
+                "divider": false
+            },
+            {
+                "submenu": "Cash Book Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/uderdev",
+                "divider": false
+            },
+            {
+                "submenu": "Bank Book Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/uderdev",
+                "divider": true
+            },
+            {
+                "submenu": "Account Master (Group Creation)",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/create-account-master",
+                "divider": false
+            }
+        ]
+    },
+    {
+        "menu": "Scheme",
+        "icon": "home.jpg",
+        "login": ["EmployeeLogin"],
+        "user": ["Administrator","User"],
+        "submenu":[
+            {
+                "submenu": "Scheme Master",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/scheme-master",
+                "divider": true
+            },
+            {
+                "submenu": "Scheme List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/scheme-list",
+                "divider": false
+            },
+            {
+                "submenu": "Category Wise Schemes List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/scheme-list-by-cat",
+                "divider": true
+            },
+            {
+                "submenu": "Scheme Registration",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/scheme-registration",
+                "divider": false
+            },
+            {
+                "submenu": "Payment Entry",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/scheme-payment-registration",
+                "divider": true
+            },
+            {
+                "submenu": "Scheme Reports",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/scheme-reports",
+                "divider": false
+            },
+            {
+                "submenu": "Category Wise Scheme Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/category-wise-scheme-reports",
+                "divider": false
+            },
+            {
+                "submenu": "Customer Wise Scheme Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/customer-wise-scheme-reports",
+                "divider": false
+            },
+            {
+                "submenu": "Client Wise Scheme Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/client-wise-scheme-reports",
+                "divider": true
+            },
+            {
+                "submenu": "Scheme Overdue Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/scheme-overdue-report",
+                "divider": true
+            },
+            {
+                "submenu": "Scheme Payment Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/scheme-payment-report",
+                "divider": false
+            },
+            {
+                "submenu": "Pay Mode Wise Payments Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/pay-mode-wise-report",
+                "divider": false
+            },
+            {
+                "submenu": "Customer Wise Payments Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/pay-customer-wise-report",
+                "divider": false
+            },
+            {
+                "submenu": "Scheme Wise Payments Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/pay-scheme-wise-report",
+                "divider": false
+            },
+            {
+                "submenu": "Client Wise Payments Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/pay-client-wise-report",
+                "divider": false
+            }
+        ]
+    },
+    {
+        "menu": "Orders",
+        "icon": "home.jpg",
+        "login": ["EmployeeLogin"],
+        "user": ["Administrator","User"],
+        "submenu":[
+            {
+                "submenu": "Order Entry",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/order-entry",
+                "divider": false
+            },
+            {
+                "submenu": "Order Delivery",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/order-delivery",
+                "divider": true
+            },
+            {
+                "submenu": "Active Order",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/active-order",
+                "divider": false
+            }
+            ,
+            {
+                "submenu": "Undelivered Orders",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/undelivered-orders",
+                "divider": true
+            }
+            ,
+            {
+                "submenu": "Order Reports",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/order-reports",
+                "divider": false
+            }
+            ,
+            {
+                "submenu": "Type Wise Orders Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/order-reports-type",
+                "divider": true
+            }
+        ]
+    },
+    {
+        "menu": "Gold Smith",
+        "icon": "home.jpg",
+        "login": ["EmployeeLogin"],
+        "user": ["Administrator","User"],
+        "submenu":[
+            {
+                "submenu": "Supplier Receipt Entry",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/supplier-receipt-entry",
+                "divider": false
+            },
+            {
+                "submenu": "Supplier Issue Entry",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/supplier-issue-entry",
+                "divider": false
+            },
+            {
+                "submenu": "Gold Smith Issue Entry",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/gold-smith-issue-entry",
+                "divider": false
+            },
+            {
+                "submenu": "Gold Smith Receipt Entry",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/gold-smith-receipt-entry",
+                "divider": true
+            },
+            {
+                "submenu": "Gold Smith Stock Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/gold-smith-stock-report",
+                "divider": false
+            },
+            {
+                "submenu": "Supplier Stock Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/supplier-stock-report",
+                "divider": true
+            },
+            {
+                "submenu": "Gold Smith Book",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/gold-smith-book",
+                "divider": false
+            },
+            {
+                "submenu": "Supplier Book",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/supplier-book",
+                "divider": true
+            },
+            {
+                "submenu": "Gold Smith Master",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/gold-smith-master",
+                "divider": false
+            }
+        ]
+    },
+    {
+        "menu": "Client",
+        "icon": "home.jpg",
+        "login": ["EmployeeLogin"],
+        "user": ["Administrator","User"],
+        "submenu":[
+            {
+                "submenu": "Client Master",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/client-master",
+                "divider": true
+            },{
+                "submenu": "Client List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/client-list",
+                "divider": true
+            }
+        ]
+    },{
+        "menu": "Supplier",
+        "icon": "home.jpg",
+        "login": ["EmployeeLogin"],
+        "user": ["Administrator","User"],
+        "submenu":[
+            {
+                "submenu": "Supplier Master",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/supplier-master",
+                "divider": true
+            },
+            {
+                "submenu": "Supplier Dues Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/supplier-due-report",
+                "divider": false
+            },
+            {
+                "submenu": "Supplier Wise Dues Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/supplier-wise-due-report",
+                "divider": false
+            },
+            {
+                "submenu": "Supplier Over Dues Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/supplier-over-due-report",
+                "divider": false
+            },
+            {
+                "submenu": "Supplier Payment wise Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/supplier-payment-wise-report",
+                "divider": false
+            },
+            {
+                "submenu": "Supplier Wise Payments Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/supplier-wise-payment-report",
+                "divider": false
+            },
+            {
+                "submenu": "Supplier Bills Report (Manual)",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/supplier-bill-report",
+                "divider": true
+            },
+            {
+                "submenu": "Suppliers List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/supplier-list",
+                "divider": false
+            },
+            {
+                "submenu": "Area Wise Suppliers List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/supplier-area-wise-list",
+                "divider": false
+            }
+            
+        ]
+    },
+    {
+        "menu": "Customer",
+        "icon": "home.jpg",
+        "login": ["EmployeeLogin"],
+        "user": ["Administrator","User"],
+        "submenu":[
+            {
+                "submenu": "Customer Master",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/customer-master",
+                "divider": true
+            },
+            {
+                "submenu": "Customer Dues Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/customer-due-report",
+                "divider": false
+            },
+            {
+                "submenu": "Customer Wise Dues Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/customer-due-wise-report",
+                "divider": false
+            },
+            {
+                "submenu": "Area Wise Dues Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/customer-area-wise-due-report",
+                "divider": false
+            },
+            {
+                "submenu": "Customer Overdues Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/customer-over-due-report",
+                "divider": false
+            },
+            {
+                "submenu": "Customer Overall Balance Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/customer-overall-balance-report",
+                "divider": false
+            },
+            {
+                "submenu": "Customer Receipts Report",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/customer-receipts-report",
+                "divider": false
+            },
+            {
+                "submenu": "Customer Bills Report (Manual)",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/customer-bills-report",
+                "divider": true
+            },
+            {
+                "submenu": "Customer List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/customer-list",
+                "divider": false
+            },
+            {
+                "submenu": "Area Wise Customers List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/customer-area-wise-list",
+                "divider": false
+            },
+            {
+                "submenu": "State Wise Customers List",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/customer-state-wise-list",
+                "divider": false
+            }
+        ]
+    },
+    {
+        "menu": "GSTR",
+        "icon": "home.jpg",
+        "login": ["EmployeeLogin"],
+        "user": ["Administrator","User"],
+        "submenu":[
+            {
+                "submenu": "GSTR- Purchase",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/gstr-purchase-reports",
+                "divider": false
+            },
+            {
+                "submenu": "GSTR- Sales",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/gstr-sales-reports",
+                "divider": true
+            },
+            {
+                "submenu": "GSTR- Purchase Return",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/gstr-purchase-return-reports",
+                "divider": false
+            },
+            {
+                "submenu": "GSTR- Sales Return",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/gstr-sales-return-reports",
+                "divider": true
+            },
+            {
+                "submenu": "GSTR- Purchase Summary",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/gstr-purchase-summary",
+                "divider": false
+            },
+            {
+                "submenu": "GSTR- Sales Summary",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/gstr-sales-summary",
+                "divider": true
+            },
+            {
+                "submenu": "GSTR- Purchase Return Summary",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/gstr-purchase-return-summary",
+                "divider": false
+            },
+            {
+                "submenu": "GSTR- Sales Return Summary",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/gstr-sales-return-summary",
+                "divider": true
+            }
+        ]
+    },
+    {
+        "menu": "Settings",
+        "icon": "home.jpg",
+        "login": ["HeadOffice"],
+        "user": ["Admin","Administrator"],
+        "submenu":[
+            {
+                "submenu": "Todays Settings",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/web-setting",
+                "divider": false
+            },
+            {
+                "submenu": "Tax Settings",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/tax-setting",
+                "divider": false
+            },
+            {
+                "submenu": "Default Settings",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/deafult-web-setting",
+                "divider": true
+            },
+            {
+                "submenu": "Branch Settings",
+                "icon": "home.jpg",
+                "user": ["Admin","Administrator","User"],
+                "url" : "/branch-setting",
+                "divider": false
+            },
+            {
+                "submenu": "SMS Settings",
+                "icon": "home.jpg",
+                "user": ["Admin"],
+                "url" : "/sms-setting",
+                "divider": false
+            },
+            {
+                "submenu": "Whats App List",
+                "icon": "home.jpg",
+                "user": ["Admin"],
+                "url" : "/whatsapp-setting",
+                "divider": true
+            },
+            {
+                "submenu": "Branch List",
+                "icon": "home.jpg",
+                "user": ["Admin"],
+                "url" : "/branchmaster",
+                "divider": false
+            },
+            {
+                "submenu": "User Master",
+                "icon": "home.jpg",
+                "user": ["Admin"],
+                "url" : "/user-master",
+                "divider": false
+            },
+            {
+                "submenu": "User Master By Branch",
+                "icon": "home.jpg",
+                "user": ["Administrator"],
+                "url" : "/branch-user-master",
+                "divider": false
+            },
+            {
+                "submenu": "User List",
+                "icon": "home.jpg",
+                "user": ["Admin"],
+                "url" : "/user-list",
+                "divider": false
+            }, 
+            {
+                "submenu": "User List By Branch",
+                "icon": "home.jpg",
+                "user": ["Administrator"],
+                "url" : "/user-list-branch",
+                "divider": false
+            },
+            {
+                "submenu": "Head Office User Master",
+                "icon": "home.jpg",
+                "user": ["Admin"],
+                "url" : "/headuser-master",
+                "divider": false
+            },
+            {
+                "submenu": "Head Office User List",
+                "icon": "home.jpg",
+                "user": ["Admin"],
+                "url" : "/headuser-list",
+                "divider": false
+            }
+        ]
+    }
+
+]

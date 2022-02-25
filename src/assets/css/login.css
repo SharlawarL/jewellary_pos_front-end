@@ -1,0 +1,286 @@
+
+.bodyLogin{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-family: "Source Sans Pro", Arial, sans-serif;;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(88, 80, 80);
+    opacity: 1;
+    font-weight: 500;
+    height: 100vh;
+}
+
+.paperClass{
+    width: 350px;
+    height: 100%;
+    margin: 30px;
+    margin-left: 50px;
+    padding: 50px;
+    text-align: center;
+}
+.formInput{
+    margin: 30px 0px;
+}
+.loginInputBox{
+    border: 1px solid #BF953F;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+.FormBox{
+    border: 2px solid #f1cd83;
+    border-radius: 2px;
+    /* padding: 20px; */
+    background-color: white;
+    z-index: 100;
+}
+.loginTitleBox{
+    padding: 20px;
+    /* border-bottom: 2px solid rgb(214, 212, 212); */
+    height: 30px;
+    text-align: center;
+}
+.logiInputBox{
+    padding: 33px;
+}
+.loginTitle{
+    font-family: Agency FB;
+    font-size: 25px;
+    color: #363635 !important;
+    /* text-shadow: 0px 0px 5px black; */
+    margin-top: -5px;
+}
+.google{
+    font-family: "Source Sans Pro", Arial, sans-serif;;
+    font-weight: 700;
+    font-size: 17px;
+}
+input{
+    /* color: black !important; */
+    /* text-shadow: 0px 0px 5px yellow; */
+}
+input::placeholder {
+    color: #ff0000;
+    opacity: 1;
+}
+.inputData{
+    width: 100%;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 14px !important;
+}
+.avatarClass{   
+    background-color: rgb(98, 146, 98);
+}
+.login-provider-button{
+    background-color: rgb(185, 37, 37);
+}
+.companyLogo{
+    right: 0px;
+    position: absolute;
+    margin: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.promoTitle{
+    color: #0952a5;
+    font-family: Roboto,sans-serif;;
+    font-size: 14px;
+    width: 500px;
+    font-weight: 550;
+    line-height: 40px;
+    text-align: center;
+    margin-top: -20px;  
+    margin: 0px auto;
+}   
+.promoText{
+    color: #666;
+    font-family: Roboto,sans-serif;;
+    font-size: 20px;
+    width: 500px;   
+    font-weight: 400;
+    line-height: 40px;  
+    text-align: center;
+    margin-top: 0px;
+    margin: 0px auto;
+}
+
+.Box{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+    /* background: url('../img/jewel.jpg'); */
+    /* background-image: linear-gradient(to bottom right, #bf953f, #fcf68a); */
+    background-repeat: space;
+    background-position: center;
+    justify-content: center;
+}
+.boxG{
+    /* background-image: linear-gradient(to bottom right, #bf953f, #fcf68a); */
+    background: url('../img/jewel.jpg');
+    background-repeat: space;
+    background-position: center;
+    height: 50vh;    
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    border-bottom-left-radius: 100px;
+}
+.Box-left{
+    width: 60%;
+    padding: 10px 20px;
+    text-align: center;
+}
+.Box-right{
+    padding: 50px  50px;
+    width: 35%;
+}
+
+.SubmitButton{
+    font-weight: 700;
+    background-color: #68a0f3;
+}
+.MuiButton-contained{
+    box-shadow: none !important;
+}
+.buttonText{
+    font-weight: 700;
+    text-transform: lowercase;
+}
+.buttonTextFirstLetter{
+    text-transform: uppercase;
+}
+.hoLogin{
+    border-top: 1px solid silver;
+    padding-top: 20px;
+}
+
+.OfferTop{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.circle1{
+    position: absolute;
+    left: -50px;
+    top:300px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid rgb(250, 211, 38);
+    animation: mymove1 5s infinite;
+}
+
+.circle2{
+    position: absolute;
+    background-color: rgba(252, 164, 1, 0.2);
+    left: -50px;
+    top:300px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid rgb(250, 211, 38);
+    animation: mymove2 5s infinite;
+    z-index: 10;
+}
+
+
+.circle3{
+    position: absolute;
+    background-color: rgba(224, 172, 0, 0.1);
+    left: 0px;
+    top:300px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid rgb(250, 211, 38);
+    animation: mymove3 10s infinite;
+    z-index: 10;
+}
+
+.circle4{
+    position: absolute;
+    /* background-color: rgba(114, 206, 248, 0.2); */
+    right: 0;
+    margin-right: 500px;
+    top:400px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid rgb(250, 211, 38);
+    animation: mymove4 10s infinite;
+    z-index: 10;
+}
+
+.Link{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width: 1000px) {
+    .companyLogo{
+        position: relative;
+        margin: 0px;
+        padding: 10px;
+        border-radius: 0px;
+    }
+
+    .paperClass{
+        width: 60%;
+        height: 100%;
+        margin: 30px;
+        margin-left: 50px;
+        padding: 50px;
+        text-align: center;
+    }
+    .Box{
+        display: block;
+        width: 100%;
+        height: 510px;
+        padding-top: 20px;
+    }
+    .Box-left{
+        display: none;
+    }
+    .Box-right{
+        padding: 50px  50px;
+        width: 80%;
+    }
+    .circle1{
+        display: none;
+    }
+    .circle2{
+        display: none;
+    }
+    .circle3{
+        display: none;
+    }
+    .circle4{
+        display: none;
+    }
+}
+
+@keyframes mymove1 {
+    0% {top: 100px;}
+    50% {top: 200px;}
+    100% {top: 100px;}
+}
+ @keyframes mymove2 {
+    0% {left: 700px;}
+    50% {left: 800px;}
+    100% {left: 700px;}
+}
+  @keyframes mymove3 {
+    0% {top: 100px;}
+    50% {top: 300px;}
+    100% {top: 100px;}
+}
+@keyframes mymove4 {
+    0% {top: 250px;}
+    50% {top: 350px;}
+    100% {top: 250px;}
+}

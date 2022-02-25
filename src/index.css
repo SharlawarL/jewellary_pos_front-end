@@ -1,0 +1,310 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F8F9FA;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px silver;
+}
+.conatiner{
+  width: 97%;
+  /* margin: 5px auto; */
+  padding: 10px 20px;
+  height: auto;
+}
+.scroll-comp
+{
+  overflow:auto;
+  height: 60vh;
+}
+
+.continerBox{
+  background-color: white;
+  /* margin: 20px; */
+  padding: 20px;
+  height: auto;
+  /* box-shadow: 0px 0px 10px rgb(233, 232, 232); */
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  width: 1000px;
+  margin: 20px auto;
+  margin-bottom: 80px;
+}
+.continerPonitBox{
+  background-color: white;
+  padding: 0px 20px 0px 0px;
+  height: auto;
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  margin: 10px 20px;
+  margin-bottom: 50px;
+  overflow-y: hidden;
+}
+.continerBigBox{
+  background-color: white;
+  /* margin: 20px; */
+  padding: 0px 20px;
+  height: auto;
+  /* box-shadow: 0px 0px 10px rgb(233, 232, 232); */
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  /* width: 1000px; */
+  margin: 10px 20px;
+  margin-bottom: 50px;
+  /* overflow-y: scroll; */
+  overflow-y: hidden;
+}
+.continerBigMediumBox{
+  background-color: white;
+  /* margin: 20px; */
+  padding: 0px 20px;
+  height: 68vh;
+  /* box-shadow: 0px 0px 10px rgb(233, 232, 232); */
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  /* width: 1000px; */
+  margin: 10px 20px;
+  margin-bottom: 50px;
+  /* overflow-y: scroll; */
+  overflow-y: hidden;
+}
+.continerBoxHeight{
+  background-color: white;
+  /* margin: 20px; */
+  padding: 20px;
+  height: 340px;
+  /* box-shadow: 0px 0px 10px rgb(233, 232, 232); */
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  width: 1000px;
+  margin: 20px auto;
+  margin-bottom: 80px;
+}
+.continerSmallBox{
+  background-color: white;
+  /* margin: 20px; */
+  padding: 20px;
+  height: 57vh;
+  /* box-shadow: 0px 0px 10px rgb(233, 232, 232); */
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  /* width: 400px; */
+  width: 55%;
+  margin: 10px auto;
+  margin-bottom: 0px;
+  overflow-y: scroll;
+}
+
+.continerSmallBoxHeight{
+  background-color: white;
+  /* margin: 20px; */
+  padding: 20px;
+  height: 70vh;
+  /* box-shadow: 0px 0px 10px rgb(233, 232, 232); */
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  /* width: 400px; */
+  width: 55%;
+  margin: 20px auto;
+  margin-bottom: 100px;
+  /* overflow-y: scroll; */
+}
+.continerMediumBox{
+  background-color: white;
+  /* margin: 20px; */
+  padding: 20px;
+  height: 68vh;
+  /* box-shadow: 0px 0px 10px rgb(233, 232, 232); */
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  /* width: 400px; */
+  width: 55%;
+  margin: 20px auto;
+  margin-bottom: 50px;
+  /* overflow-y: scroll; */
+}
+.continerPrintBox{
+  background-color: white;
+  /* margin: 20px; */
+  padding: 20px;
+  height: 69vh;
+  /* box-shadow: 0px 0px 10px rgb(233, 232, 232); */
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  /* width: 400px; */
+  width: 70%;
+  margin: 10px auto;
+  margin-bottom: 0px;
+  overflow-y: scroll;
+}
+
+.continerPrintInvoiceBox{
+  background-color: white;
+  /* margin: 20px; */
+  padding: 20px;
+  height: 68vh;
+  /* box-shadow: 0px 0px 10px rgb(233, 232, 232); */
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  /* width: 400px; */
+  width: 70%;
+  margin: 10px auto;
+  margin-bottom: 0px;
+  overflow-y: scroll;
+}
+
+.button_box_small_print{
+  width: 70%;
+  margin: 10px auto;
+}
+.button_box_small{
+  width: 55%;
+  margin: 10px auto;
+}
+.button_box_small_title{
+  width: 55%;
+  margin: 10px auto 0px;
+}
+
+.continerSmallBox::-webkit-scrollbar-track
+{
+	/* -webkit-box-shadow: inset 0 0 6px rgba(240, 238, 238, 0.3); */
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.continerSmallBox::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.continerSmallBox::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	/* -webkit-box-shadow: inset 0 0 6px rgba(28, 120, 240, 0.3); */
+	background-color: #c7caca;
+}
+.continerTranferentBox{
+  padding: 30px 30px;
+  margin-bottom: 0px;
+}
+
+.containerError { 
+  margin: auto;
+  width: 50%;
+  height: 80vh;
+  position: relative; 
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+.vertical-center h1{
+    font-size: 60px;
+    color: rgb(56, 56, 56);
+    /* margin-top: -0px; */
+    margin-bottom: 100px;
+}
+.vertical-center h1 span{
+  font-size: 40px;
+  color: rgb(137, 139, 139);
+}
+
+@media only screen and (max-width: 1000px) {
+  .conatiner{
+    padding: 10px 20px;
+    min-height: 400px;
+    height: auto;
+}
+.continerBox{
+    width: 90%;
+}
+.continerBoxHeight{
+  background-color: white;
+  /* margin: 20px; */
+  padding: 10px;
+  height: 340px;
+  /* box-shadow: 0px 0px 10px rgb(233, 232, 232); */
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  width: auto;
+  margin: 20px 10px;
+  margin-bottom: 80px;
+}
+
+.continerSmallBox{
+  background-color: white;
+  padding: 10px;
+  height: auto;
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  width: auto;
+  margin: 20px 10px;
+  margin-bottom: 80px;
+}
+.continerBigBox{
+  background-color: white;
+  padding: 10px;
+  height: auto;
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  width: 90%;
+  margin: 20px 10px;
+  margin-bottom: 80px;
+  overflow-y: scroll;
+}
+.continerTranferentBox{
+  padding: 50px 20px;
+  margin-bottom: 100px;
+}
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0378c7;; 
+  height: 5px;
+  width: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #227bce;; 
+}
+
+::-webkit-input-placeholder {color:#ffffff;}
+:-moz-placeholder {color:#ffffff;}
+::-moz-placeholder {color:#ffffff;}
+:-ms-input-placeholder{color:#ffffff;}
+
+input[value="0000-00-00"]::-webkit-datetime-edit {
+  color: transparent; 
+}

@@ -1,0 +1,176 @@
+.menuDropdownItemBigg:hover {
+    color: rgb(20 19 19);
+    background: linear-gradient(86deg, #bf953f, #fcf68a);
+}
+
+.menuItem:hover {
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a, #bf953f);
+    /* background: linear-gradient(155deg, #d9d46c, transparent); */
+    color: black !important;
+}
+
+.menuDropdownItem:hover {
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a, #bf953f);
+    /* background: linear-gradient(86deg, #bf953f, #fcf68a); */
+    background-color: initial !important;
+    color: rgb(20 19 19);
+}
+
+.p-inputtext:enabled:hover {
+    border-color: #bf953f !important;
+}
+
+.FooterClass,
+.topBar {
+    background: linear-gradient(to bottom, #a88234 0%, #fcf68a 100%) !important;
+}
+
+
+.websiteTitle {
+    color: #4f3f3f !important;
+    text-shadow: none !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.websiteBranch {
+    font-weight: bold;
+    color: #302d2d;
+    font-size: 12px;
+}
+
+
+.p-datatable .p-datatable-thead>tr>th {
+    /* background: linear-gradient(145deg, #b0a939, transparent) !important; */
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a, #bf953f);
+    color: #564343 !important;
+}
+
+
+.p-inputtext:enabled:focus {
+    box-shadow: 0 0 0 0.1rem #eacc8e !important;
+    border-color: #bf953f !important;
+}
+/* input:focus {
+    box-shadow: 0 0 0 0.1rem #eacc8e !important;
+    border-color: #bf953f !important;
+    outline: none !important;
+}
+.login-input:focus {
+    box-shadow: 0 0 0 0.1rem #eacc8e !important;
+    border-color: #bf953f !important;
+    outline: none !important;
+} */
+
+.p-dropdown:not(.p-disabled):hover , .p-dropdown:not(.p-disabled).p-focus , .p-button:focus , select:hover, select:focus{
+    box-shadow: 0 0 0 0.1rem #eacc8e !important;
+    border-color: #bf953f !important;
+}
+.p-datepicker:not(.p-datepicker-inline){
+    min-width: 20% !important;
+    /* width: 200px !important; */
+}
+
+
+button.buttonSecondary,
+button.buttonPrimary , .p-button{
+    color: black !important;
+    /* text-transform: lowercase !important; */
+    text-shadow: none;
+    border: 1px solid #b7a066 !important;
+    /* background: linear-gradient(155deg, #d9d46c, transparent) !important; */
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a, #bf953f) !important;
+}
+
+button.buttonPrimaryLogin{
+    color: white !important;
+    text-shadow: none;
+    border-radius: 20px !important;
+    background: linear-gradient(to right, #bf953f ,#fcf68a) !important;
+}
+
+button.buttonSecondaryLogin{
+    color: black !important;
+    text-shadow: none;
+    border-radius: 20px !important;
+    background: linear-gradient(to right, rgb(201, 196, 196) ,#faf8f8) !important;
+}
+
+div.right_total_box_amount,
+input.right_total_box_amount {
+    background: #f6f5f2;
+}
+
+div.companyName {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+div.productName {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+div.right_final_total_box {
+    /* background: linear-gradient(155deg, #d9d46c, transparent) !important; */
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a) !important;
+}
+
+/*div.continerPonitBox>div.p-grid>div.p-col-4 {
+    background: linear-gradient(155deg, #d9d46c, transparent) !important;
+}*/
+
+div.right_final_total_box {
+    /* background: linear-gradient(155deg, #d9d46c, transparent) !important; */
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a) !important;
+    color: black;
+    text-shadow: none;
+}
+
+div.right_final_total_box>div:nth-child(2) {
+    color: black;
+}
+
+div.pos-header {
+    /* background: linear-gradient(145deg, #b0a939, transparent); */
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a, #bf953f);
+    background-color: initial;
+    padding: 2px 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e0dda5;
+}
+::-webkit-scrollbar-thumb:hover {
+    /* background: #b0a939; */
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a);
+}
+
+.table-style  {
+    height: 13em;
+    border: 1px solid #b0a939;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.table-style-1{
+    border: 2px solid #b0a939;
+}
+
+.header-1{
+    height:65px;
+}
+
+select{
+    border:1px solid #d6d2c3;
+}
+
+
+.glass-card {
+    backdrop-filter: blur(10px) saturate(100%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    box-shadow: 0px 0px 10px silver;
+}

@@ -1,0 +1,32 @@
+.content {
+    border: 2px solid black;
+    padding: 5px 5px 5px 5px;
+}
+
+.heading {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top-width: 100%;
+}
+
+tr.before-total>td {
+    padding-bottom: 3em;
+}
+
+tr.total>th {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+tr.for-label>th {
+    padding-top: 2em;
+}
+
+.innerTable {
+    padding: 7px 7px 7px 7px;
+    border: 2px solid black;
+}
+
+.innerTable-cell {
+    border: 2px solid black;
+}

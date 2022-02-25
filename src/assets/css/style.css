@@ -1,0 +1,588 @@
+.body {
+    background-color: #F8F9FA;
+    overflow: hidden;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    ;
+    font-size: 15px;
+    color: rgb(88, 80, 80);
+    opacity: 1;
+    font-weight: 500;
+    height: 100%;
+}
+
+.pageTitle {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    line-height: 30px;
+    font-size: 1.0rem;
+    color: #1e66bd;
+    opacity: 1;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 1px;
+}
+
+.cardBox {
+    display: flex;
+    width: 100%;
+}
+
+.card {
+    width: 25%;
+}
+
+.cardView {
+    width: 90%;
+    display: block;
+    height: 130px;
+}
+
+.graphView {
+    width: 90%;
+    display: block;
+    border: 1px solid #BF953F;
+    margin-bottom: 50px;
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a, #bf953f);
+}
+
+.graphBoxHead {
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    border: 2px solid #c9a04f;
+    padding: 10px;
+    /* background-color: #af883b; */
+    color: black;
+    /* text-shadow: 0px 0px 10px yellow; */
+}
+
+.cardIcon {
+    width: 30%;
+}
+
+.cardDetail {
+    width: 70%;
+}
+
+
+.cardTitle {
+    margin-top: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.cardSubTitle {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    ;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0;
+    line-height: 30px;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+input {
+    color: black;
+    /* text-shadow: 0px 0px 5px yellow; */
+}
+
+input::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.inputDataBox {
+    color: black !important;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.InputBox {
+    padding: 5px;
+    width: 100%;
+    margin: 10px 0px;
+    /* border: 1px solid silver; */
+    border-radius: 5px;
+}
+
+.InputPrimeBox {
+    width: 100%;
+}
+
+.branchSelectBox {
+    padding: 10px 5px;
+    width: 100%;
+    margin: 10px 0px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-field {
+    padding: 20px;
+}
+
+.branchBox {
+    display: flex;
+    width: 100%;
+}
+
+.branchLeft {
+    width: 60%;
+    padding: 20px 10px;
+}
+
+.branchRight {
+    width: 20%;
+    padding: 30px 10px;
+}
+
+.searchBox {
+    height: 50px;
+    width: 20%;
+    padding: 30px 10px;
+}
+
+.searchInput {
+    /* position: absolute;
+    right: 0; */
+    border-bottom: 1px solid silver;
+}
+
+.submitFormButton {
+    padding: 0.1rem !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3 {
+    width: 24%;
+    padding: 10px 5px 10px 5px;
+}
+
+.col-6 {
+    width: 48%;
+    padding: 10px 0px 10px 0px;
+}
+
+.col-1 {
+    width: 4%;
+}
+
+.col-2 {
+    width: 6%;
+}
+
+.col-4 {
+    width: 20%;
+}
+
+.col-8 {
+    width: 80%;
+}
+
+.buttonPrimary {
+    color: rgb(92 92 66) !important;
+    text-shadow: none;
+    border: 1px solid #b7a066 !important;
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a, #bf953f);
+    /* background: linear-gradient(155deg, #d9d46c, transparent) !important;    */
+    /* background-color: rgb(36, 136, 230) !important;
+    color: white !important; */
+    /* text-shadow: 0px 0px 5px black !important; */
+    /* padding: 8px 20px 8px 0px !important;*/
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonSecondary {
+    color: rgb(92 92 66) !important;
+    text-shadow: none;
+    border: 1px solid #b7a066 !important;
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a, #bf953f);
+    /* background: linear-gradient(155deg, #d9d46c, transparent) !important; */
+    /* background-color: rgb(249, 249, 250) !important;
+    color: rgb(13, 111, 202) !important; */
+    /* text-shadow: 0px 0px 5px black !important; */
+    /* border: 1px solid rgb(13, 111, 202) !important; */
+    padding: 8px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonDivPrimary {
+    color: rgb(92 92 66) !important;
+    text-shadow: none;
+    border: 1px solid #b7a066 !important;
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a, #bf953f);
+    /* background: linear-gradient(155deg, #d9d46c, transparent) !important; */
+    /* background-color: rgb(36, 136, 230) !important;
+    color: white !important; */
+    /* text-shadow: 0px 0px 5px black !important; */
+    padding: 8px 20px !important;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonDivSecondary {
+    color: rgb(92 92 66) !important;
+    text-shadow: none;
+    border: 1px solid #b7a066 !important;
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a, #bf953f);
+    /* background: linear-gradient(155deg, #d9d46c, transparent) !important; */
+    /* background-color: rgb(249, 249, 250) !important;
+    color: rgb(13, 111, 202) !important; */
+    /* text-shadow: 0px 0px 5px black !important; */
+    /* border: 1px solid rgb(13, 111, 202) !important; */
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.linkPrimary {
+    color: black;
+    text-decoration: none;
+}
+
+.linkSecondary {
+    color: rgb(201, 32, 32);
+    text-decoration: none;
+}
+
+.textDanger {
+    margin-top: 5px;
+    color: rgb(245, 69, 69);
+    font-size: 0.8rem;
+}
+
+.MuiInput-underline:before {
+    border-bottom: none !important;
+}
+
+.MuiInput-underline:after {
+    border-bottom: none !important;
+}
+
+/* .MuiIconButton-label{
+    color: black !important;
+} */
+
+.reactSelect {
+    margin: 10px 0px;
+}
+
+::ng-deep .MuiTablePagination-root {
+    overflow: none !important;
+}
+
+::placeholder {
+    color: black !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    opacity: 0.5;
+}
+
+:-moz-placeholder {
+    color: black;
+    opacity: 0.5;
+}
+
+::-moz-placeholder {
+    color: black;
+    opacity: 0.5;
+}
+
+:-ms-input-placeholder {
+    color: black;
+    opacity: 0.5;
+}
+
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+}
+
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+    content: "";
+}
+
+.tableHead {
+    background-color: #F8F9FA;
+}
+
+.tableTd {
+    font-family: "Source Sans Pro", Arial, sans-serif !important;
+    line-height: 13px;
+    font-size: 13px !important;
+    cursor: pointer;
+}
+
+.tableTd:hover {
+    background-color: #e7e9eb;
+}
+
+.materialIcon {
+    position: absolute;
+    margin-left: -30px;
+}
+
+.paginationBox {
+    height: 50px;
+    width: 90%;
+}
+
+.paginationInput {
+    position: absolute;
+    right: 0px;
+    margin-right: 100px;
+}
+
+.MuiInputLabel-outlined {
+    z-index: 0 !important;
+}
+
+/* .css-yk16xz-control {
+    padding: 7px !important;
+}
+.css-g1d714-ValueContainer{
+    padding: 9px !important;
+} */
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.MuiCircularProgress-colorPrimary {
+    color: green !important;
+}
+
+.CircularProgressbar-text {
+    margin-left: -100px;
+}
+
+.col-master-1 {
+    width: 9%;
+    margin-left: 10px;
+}
+
+.col-master-2 {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.MuiOutlinedInput-input {
+    padding: 0.9rem 0.7rem !important;
+}
+
+.p-datatable .p-datatable-tbody>tr>td {
+    padding: 3px 20px !important;
+    height: 5px;
+}
+
+.p-datatable .p-datatable-thead>tr>th {
+    padding: 3px 20px !important;
+    /* background-color: #489DDE; */
+    background: linear-gradient(to bottom,  #bf953f ,#fcf68a);
+    color: white;
+}
+
+.p-datatable {
+    margin-top: 5px;
+}
+
+.row-accessories {
+    /* background-color: rgba(0, 0, 0, 0.15) !important; */
+    padding: 10px !important;
+    font-weight: 700;
+}
+
+.p-component {
+    font-size: 0.9rem !important;
+}
+
+.p-datatable-wrapper {
+    overflow: hidden !important;
+}
+
+.p-paginator {
+    padding: 0.1rem 1rem !important;
+}
+
+.p-autoComplete-input {
+    width: 85% !important;
+}
+
+.p-autocomplete-dd .p-autocomplete-input {
+    width: 80% !important;
+}
+
+.p-dialog .p-dialog-header-icons {
+    position: absolute !important;
+    right: 20px !important;
+}
+
+.p-dialog .p-dialog-header {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: -10;
+}
+
+.p-dialog-content {
+    overflow: hidden !important;
+}
+
+.p-dialog .p-dialog-content {
+    padding: 0px !important;
+}
+
+/* .p-dialog-enter-done{
+    padding: 20px !important;
+    background: white !important;
+} */
+.MuiButton-root {
+    width: 100% !important;
+}
+
+tfoot {
+    display: none;
+}
+
+.right_total_box {
+    margin-top: -10px !important;
+    padding: 1px 20px !important;
+    /* border:3px solid rgb(7, 183, 236); */
+    font-size: 0.8rem;
+    color: black;
+    /* background-color: rgb(7, 183, 236); */
+
+}
+
+.right_total_box_title {
+    padding: 5px 10px !important;
+    margin: 5px 0px;
+    line-height: 23px;
+}
+
+.right_total_box_title1 {
+    padding: 5px 2px !important;
+    margin: 5px 0px;
+    line-height: 23px;
+}
+
+.right_total_box_amount {
+    margin: 10px 0px;
+    padding: 2px 10px !important;
+    text-align: right;
+    background-color: rgba(153, 197, 247, 0.3)
+}
+
+.right_final_total_box {
+    text-shadow: 0px 0px 5px rgb(7 0 0);
+    font-family: Arial;
+    /* padding: 1px 15px !important; */
+    /* border: 1px solid white; */
+    /* font-size: 1rem; */
+    line-height: 28px;
+    color: white;
+    /* background-color: #227bce; */
+    background: linear-gradient(to bottom, #bf953f ,#fcf68a, #bf953f);
+    /* border: 0.1px solid rgb(104, 103, 103); */
+    margin-bottom: 0px;
+      height: 46px;  
+    margin-left: 20px !important;
+    width: 90%;
+}
+
+.p-selectable-row:focus {
+    background-color: rgb(151, 146, 146, 0.3) !important;
+}
+
+.column-input {
+    padding: 0px 5px !important;
+    /* margin-top: -15px; */
+}
+
+.column-input-2 {
+    padding: 30px 5px 0px !important;
+    margin-top: -10px;
+}
+
+.column-input-old {
+    padding: 5px 5px 0px !important;
+    margin-top: -10px;
+}
+
+.reportButton {
+    margin-left: 10px;
+    width: 97%;
+    text-align: center
+}
+
+.p-grid-data {
+    display: flex;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .branchLeft {
+        width: 80%;
+    }
+
+    .branchRight {
+        width: 20%;
+    }
+
+    .cardBox {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px auto
+    }
+}
+
+
+/*Item master*/
+
+div.continerSmallBox div.p-grid>.p-col-12 {
+    display: flex;
+}
+
+div.continerSmallBox div.p-grid>.p-col-12>div {
+    width: 30%;
+}
+
+div>.purchase-reg {
+    height: 32em;
+}
+
+div>.pur-row {
+    height: 4em;
+    margin-top: 1px;
+}
+.classone{
+    width: 70%;
+    outline: silver;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 5px 10px
+}
